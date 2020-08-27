@@ -182,7 +182,7 @@ interface EventError<E = ErrnoError> {
 type EventFor<T extends string, D = {}> = Expand<{type: T} & D>
 
 /**
- * A union type that represents all possible even types and the associated data.
+ * A union type that represents all possible event types and the associated data.
  * Events always have a `type` property with an {@link EventType} value.
  *
  * The following socket events can be generated. This list may be different
